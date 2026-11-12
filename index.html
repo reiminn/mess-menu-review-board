@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mess Menu & Review Board</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">🍽️ Mess Menu <span>&amp; Review Board</span></div>
+  <nav id="tabs">
+    <button data-view="menu" class="active">Menu &amp; Rate</button>
+    <button data-view="reviews">Reviews</button>
+    <button data-view="insights">Insights</button>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<div id="modal" class="modal hidden"><div class="modal-card" id="modalCard"></div></div>
+<div id="toast" class="toast hidden"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
